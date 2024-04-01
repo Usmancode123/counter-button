@@ -1,0 +1,36 @@
+.Container{
+    width: 100%;height: 100vh;
+   display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+gap: 2rem;
+}
+body{
+    background: #000;
+    color: aliceblue;
+  }
+  
+  button{
+    text-align: center;
+    padding: 15px 50px ;
+    font-size: 20px;
+    border: none;
+margin: 10px;
+  }
+  button:hover{
+    opacity: 0.8;
+  }
+  p{
+    font-size: 2rem;
+    font-weight: 600
+  }
+
+  .red{
+    background: #eb4141;
+  }
+
+  .green{
+    background: #67ff7d;
+  }
